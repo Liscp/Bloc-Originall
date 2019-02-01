@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Nuevo Contenido
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-input type="file"></ion-input>
+  
+    <ion-label>
+      <p>Descripción</p>
+      <div style="border-style: ridge">
+        <ion-input type="text"></ion-input>
+      </div>
+    </ion-label>
+  
+    <ion-label>
+      <p>Precio</p>
+      <div style="border-style: ridge">
+        <ion-input type="number"></ion-input>
+      </div>
+    </ion-label>
+  
+    <ion-label>
+      <p>Nombre</p>
+      <div style="border-style: ridge">
+        <ion-input type="text"></ion-input>
+      </div>
+    </ion-label>
+  
+    <ion-label>
+      <p>Teléfono Vendedor</p>
+      <div style="border-style: ridge">
+        <ion-input type="number"></ion-input>
+      </div>
+    </ion-label>
+  
+        <ion-label>
+            <p>Vivienda</p>
+            <div style="border-style: ridge">
+              <ion-input type="number"></ion-input>
+            </div>
+        </ion-label>
+  
+        <ion-label>
+            <p>Estado</p>
+            <select>
+                <option>Usado</option>
+                <option ng-selected="mySel">Nuevo</option>    
+              </select>
+        </ion-label>
+  
+        <ion-list>
+        
+        <ion-button routerLink="/home" ng-href="" color="success">Subir Contenido</ion-button>
+      </ion-list>
+  
+
+</ion-content>
